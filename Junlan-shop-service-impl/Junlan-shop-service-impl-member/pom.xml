@@ -1,0 +1,40 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.junlaninfo</groupId>
+    <artifactId>Junlan-shop-service-impl</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>Junlan-shop-service-impl-member</artifactId>
+  
+  <dependencies> 
+  <!-- 会员项目的实现导入会员项目的接口  -->
+     <dependency>
+         <groupId>com.junlaninfo</groupId>
+         <artifactId>Junlan-shop-service-api-member</artifactId>
+         <version>0.0.1-SNAPSHOT</version>
+     </dependency>
+     
+     <!-- 引入数据库相关的依赖 -->
+		<!-- mybatis相关依赖 -->
+		<dependency>
+			<groupId>org.mybatis.spring.boot</groupId>
+			<artifactId>mybatis-spring-boot-starter</artifactId>
+			<version>2.0.0</version>
+		</dependency>
+		<!-- mysql 依赖 -->
+		<dependency>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+		</dependency>
+		
+		<!-- 引入会员服务的dto -->
+		<dependency>
+	         <groupId>com.junlaninfo</groupId>
+	         <artifactId>Junlan-shop-api-member-dto</artifactId>
+	         <version>0.0.1-SNAPSHOT</version>
+       </dependency>
+		
+		
+  </dependencies>
+</project>

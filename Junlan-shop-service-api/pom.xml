@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>com.junlaninfo</groupId>
+    <artifactId>Junlan-shop-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+  </parent>
+  <artifactId>Junlan-shop-service-api</artifactId>
+  <packaging>pom</packaging>
+  <modules>
+  	<module>Junlan-shop-service-api-member</module>
+  	<module>Junlan-shop-service-api-weixin</module>
+  </modules>
+  
+ <!--接口处引入swagger的依赖，因为那些注解只是在接口处实现-->
+ <dependencies>
+ <!-- swagger-spring-boot -->
+		<dependency>
+			<groupId>com.spring4all</groupId>
+			<artifactId>swagger-spring-boot-starter</artifactId>
+			<version>1.7.0.RELEASE</version>
+		</dependency>
+		
+		
+		
+		<!-- 引入工具类的依赖 -->
+		<dependency>
+		     <groupId>com.junlaninfo</groupId>
+             <artifactId>Junlan-shop-common-core</artifactId>
+             <version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
+ </dependencies>
+</project>
