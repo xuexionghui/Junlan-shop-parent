@@ -1,0 +1,68 @@
+0    DEBUG [2019-03-02 21:12:37]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-03-02 21:12:37]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+4    DEBUG [2019-03-02 21:12:37]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+7    DEBUG [2019-03-02 21:12:37]  TemplateLoader.findTemplateSource("index.ftl"): Found
+7    DEBUG [2019-03-02 21:12:37]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "E:\\JavaAll\\git\\Junlan-shop-parent\\Junlan-shop-portal\\Junlan-shop-portal-web\\target\\classes\\templates\\index.ftl"
+308  DEBUG [2019-03-02 21:12:37]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+338  DEBUG [2019-03-02 21:12:37]  Couldn't find template in cache for "base/head.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+340  DEBUG [2019-03-02 21:12:37]  TemplateLoader.findTemplateSource("base/head_zh_CN.ftl"): Not found
+344  DEBUG [2019-03-02 21:12:37]  TemplateLoader.findTemplateSource("base/head_zh.ftl"): Not found
+346  DEBUG [2019-03-02 21:12:37]  TemplateLoader.findTemplateSource("base/head.ftl"): Found
+346  DEBUG [2019-03-02 21:12:37]  Loading template for "base/head.ftl"("zh_CN", UTF-8, parsed) from "E:\\JavaAll\\git\\Junlan-shop-parent\\Junlan-shop-portal\\Junlan-shop-portal-web\\target\\classes\\templates\\base\\head.ftl"
+380  DEBUG [2019-03-02 21:12:38]  Couldn't find template in cache for "base/bottom.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+381  DEBUG [2019-03-02 21:12:38]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+382  DEBUG [2019-03-02 21:12:38]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+383  DEBUG [2019-03-02 21:12:38]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+383  DEBUG [2019-03-02 21:12:38]  Loading template for "base/bottom.ftl"("zh_CN", UTF-8, parsed) from "E:\\JavaAll\\git\\Junlan-shop-parent\\Junlan-shop-portal\\Junlan-shop-portal-web\\target\\classes\\templates\\base\\bottom.ftl"
+140925 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+140927 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+140928 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("index.ftl"): Found
+140928 DEBUG [2019-03-02 21:14:58]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\index.ftl hasn't changed.
+140928 DEBUG [2019-03-02 21:14:58]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+140929 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("base/head_zh_CN.ftl"): Not found
+140930 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("base/head_zh.ftl"): Not found
+140931 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("base/head.ftl"): Found
+140931 DEBUG [2019-03-02 21:14:58]  "base/head.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\head.ftl hasn't changed.
+140935 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+140936 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+140937 DEBUG [2019-03-02 21:14:58]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+140937 DEBUG [2019-03-02 21:14:58]  "base/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\bottom.ftl hasn't changed.
+155096 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+155099 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+155101 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("index.ftl"): Found
+155101 DEBUG [2019-03-02 21:15:12]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\index.ftl hasn't changed.
+155101 DEBUG [2019-03-02 21:15:12]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+155103 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("base/head_zh_CN.ftl"): Not found
+155104 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("base/head_zh.ftl"): Not found
+155105 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("base/head.ftl"): Found
+155105 DEBUG [2019-03-02 21:15:12]  "base/head.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\head.ftl hasn't changed.
+155111 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+155113 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+155113 DEBUG [2019-03-02 21:15:12]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+155113 DEBUG [2019-03-02 21:15:12]  "base/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\bottom.ftl hasn't changed.
+298540 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+298541 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+298542 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("index.ftl"): Found
+298543 DEBUG [2019-03-02 21:17:36]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\index.ftl hasn't changed.
+298543 DEBUG [2019-03-02 21:17:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+298546 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("base/head_zh_CN.ftl"): Not found
+298547 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("base/head_zh.ftl"): Not found
+298548 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("base/head.ftl"): Found
+298549 DEBUG [2019-03-02 21:17:36]  "base/head.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\head.ftl hasn't changed.
+298551 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+298553 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+298554 DEBUG [2019-03-02 21:17:36]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+298554 DEBUG [2019-03-02 21:17:36]  "base/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\bottom.ftl hasn't changed.
+328237 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+328238 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+328240 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("index.ftl"): Found
+328240 DEBUG [2019-03-02 21:18:05]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\index.ftl hasn't changed.
+328241 DEBUG [2019-03-02 21:18:05]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+328242 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("base/head_zh_CN.ftl"): Not found
+328243 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("base/head_zh.ftl"): Not found
+328244 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("base/head.ftl"): Found
+328244 DEBUG [2019-03-02 21:18:05]  "base/head.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\head.ftl hasn't changed.
+328246 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("base/bottom_zh_CN.ftl"): Not found
+328248 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("base/bottom_zh.ftl"): Not found
+328248 DEBUG [2019-03-02 21:18:05]  TemplateLoader.findTemplateSource("base/bottom.ftl"): Found
+328248 DEBUG [2019-03-02 21:18:05]  "base/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since E:\JavaAll\git\Junlan-shop-parent\Junlan-shop-portal\Junlan-shop-portal-web\target\classes\templates\base\bottom.ftl hasn't changed.

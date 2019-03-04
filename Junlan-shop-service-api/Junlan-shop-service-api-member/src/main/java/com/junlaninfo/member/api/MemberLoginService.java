@@ -25,7 +25,7 @@ import io.swagger.annotations.ApiOperation;
 public interface MemberLoginService {
 	
 	@ApiOperation(value="利用手机号码和密码进行登陆")
-	@PostMapping(value="/login")
+	@PostMapping(value="/login1")
 	BaseResponse<JSONObject>   userLogin(@RequestBody UserLoginInpDTO userLoginInpDTO);
 
 }

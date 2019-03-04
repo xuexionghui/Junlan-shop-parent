@@ -3,7 +3,7 @@ package com.junlaninfo.mapper;
 import org.springframework.data.repository.query.Param;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
-
+import org.apache.ibatis.annotations.Update;
 
 import com.junlaninfo.UserEntity;
 import com.junlaninfo.DO.UserDo;
@@ -24,7 +24,7 @@ public interface UserMapper {
 	/*
 	 * 会员登陆
 	 */
-	@Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD, USER_NAME AS USER_NAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME,IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID,WX_OPENID AS WXOPENID "
+	@Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD, USER_NAME AS USERNAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME,IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID,WX_OPENID AS WXOPENID "
 			+ "  FROM junlan_user  WHERE  mobile=#{0};")
 	UserDo login( @Param("mobile") String mobile);
 	
@@ -32,6 +32,13 @@ public interface UserMapper {
 	@Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD, USER_NAME AS USER_NAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME,IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID,WX_OPENID AS WXOPENID"
 			+ " FROM junlan_user WHERE user_Id=#{userId}")
 	UserDo findByUserId(@Param("userId") Long userId);
+	
+	@Select("SELECT USER_ID AS USERID ,MOBILE AS MOBILE,EMAIL AS EMAIL,PASSWORD AS PASSWORD, USER_NAME AS USER_NAME ,SEX AS SEX ,AGE AS AGE ,CREATE_TIME AS CREATETIME,IS_AVALIBLE AS ISAVALIBLE,PIC_IMG AS PICIMG,QQ_OPENID AS QQOPENID,WX_OPENID AS WXOPENID"
+			+ " FROM meite_user WHERE qq_openid=#{qqOpenId}")
+	UserDo findByOpenId(@Param("qqOpenId") String qqOpenId);
+
+	@Update("update meite_user set QQ_OPENID =#{0} WHERE USER_ID=#{1}")
+	int updateUserOpenId(@Param("qqOpenId") String qqOpenId, @Param("userId") Long userId);
 	
 	 
 }

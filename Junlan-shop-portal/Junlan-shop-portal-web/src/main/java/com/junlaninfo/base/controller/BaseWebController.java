@@ -10,6 +10,11 @@ public class BaseWebController {
 	 * 500页面
 	 */
 	protected static final String ERROR_500_FTL = "500.ftl";
+	
+	String LOGIN_QQ_OPENID = "qq_openid";
+
+	// 用户信息不存在
+	Integer HTTP_RES_CODE_NOTUSER_203 = 203;
 
 	public Boolean isSuccess(BaseResponse<?> baseResp) {
 		if (baseResp == null) {

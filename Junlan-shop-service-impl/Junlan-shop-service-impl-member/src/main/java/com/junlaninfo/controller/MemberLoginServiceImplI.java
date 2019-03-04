@@ -29,7 +29,7 @@ import com.junlaninfo.utils.MD5Util;
 s
 */ 
 @RestController
-public class MemberLoginServiceImpl  extends BaseApiService<JSONObject> implements  MemberLoginService{
+public class MemberLoginServiceImplI  extends BaseApiService<JSONObject> implements  MemberLoginService{
     
 	@Autowired
 	private  UserMapper  userMapper; 
@@ -64,8 +64,16 @@ public class MemberLoginServiceImpl  extends BaseApiService<JSONObject> implemen
 	    if(userDo==null ||!b) {
 			return setResultError("密码或者手机号不正确，请检查后重新输入");
 		}
+	    
+	    
 		//4、生成token   将表里面的userId作为token的value
 	    Long userId = userDo.getUserId();
+	 // openid关联用户账号信息
+	 		String qqOpenId = userLoginInpDTO.getQqOpenId();
+	 		if (!StringUtils.isEmpty(qqOpenId)) {
+	 			userMapper.updateUserOpenId(qqOpenId, userId);
+	 		}
+	 		
 	    String  keyPrefix=Constants.MEMBER_TOKEN_KEYPREFIX;
 	    String  redisValue=userId+"";
 	    

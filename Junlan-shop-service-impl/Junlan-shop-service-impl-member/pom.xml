@@ -34,6 +34,12 @@
 	         <artifactId>Junlan-shop-api-member-dto</artifactId>
 	         <version>0.0.1-SNAPSHOT</version>
        </dependency>
+       
+       <dependency>
+              <groupId>com.junlaninfo</groupId>
+              <artifactId>Junlan-shop-portal-web</artifactId>
+              <version>0.0.1-SNAPSHOT</version>
+       </dependency>
 		
 		
   </dependencies>

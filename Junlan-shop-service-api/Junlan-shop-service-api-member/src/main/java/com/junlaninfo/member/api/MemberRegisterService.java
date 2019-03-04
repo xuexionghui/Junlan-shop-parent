@@ -20,7 +20,7 @@ public interface MemberRegisterService {
 	/*
 	 * 会员注册
 	 */
-	@PostMapping(value="/register")
+	@PostMapping(value="/register1")
 	@ApiOperation(value = "会员用户注册信息接口")
 	public BaseResponse<JSONObject>  register(
 			@RequestBody  UserEntity  userEntity,
