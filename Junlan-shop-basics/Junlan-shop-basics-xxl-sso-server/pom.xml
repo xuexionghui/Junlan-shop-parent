@@ -9,6 +9,11 @@
  
   <!-- 引入依赖 -->
   <dependencies>
+        <!-- 引入freemarker的依赖 -->
+        <dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+		</dependency>
   	<!-- sso core -->
 		<dependency>
 			<groupId>com.xuxueli</groupId>

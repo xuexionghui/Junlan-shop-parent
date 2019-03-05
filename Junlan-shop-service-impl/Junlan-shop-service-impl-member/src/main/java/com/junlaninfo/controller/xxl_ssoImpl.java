@@ -24,7 +24,7 @@ import com.junlaninfo.utils.junlanBeanUtils;
    @emil:41366915@qq.com
 * @version 创建时间：2019年3月4日 下午7:45:15 
 
-* 类说明 
+* 类说明      xxl-sso  用户授权中心 使用商城的会员登陆
 
 */ 
 @RestController
@@ -71,8 +71,6 @@ public class xxl_ssoImpl     extends BaseApiService<UserOutDTO>   implements xxl
 			    if(userDo==null ||!b) {
 					return setResultError("密码或者手机号不正确，请检查后重新输入");
 				}
-			    
-			    
 				return setResultSuccess(junlanBeanUtils.doToDto(userDo, UserOutDTO.class));
 	}
 

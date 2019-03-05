@@ -18,8 +18,8 @@ import com.junlaninfo.outputDTO.UserOutDTO;
 
 */ 
 public interface xxl_sso {
-	  
-	@PostMapping
+	
+	@PostMapping("/ssoLogin")
 	public  BaseResponse<UserOutDTO>   ssoLogin(@RequestBody UserLoginInpDTO userLoginInpDTO);
 
 }
