@@ -35,11 +35,18 @@
 	         <version>0.0.1-SNAPSHOT</version>
        </dependency>
        
-       <dependency>
+       <!-- 
+       造成原因：  因为member服务引入了portal-web服务，而portal-web服务里面有配置类，
+            所以当member服务启动的时候，也会创建一个配置类，如果member服务application.rpoerpties
+      里面没有创建这个配置类所需要的属性，就会报错：
+      java.lang.IllegalArgumentException:
+     Could not resolve placeholder 'xxl.sso.server' in value "${xxl.sso.server}"
+        -->
+     <!--   <dependency>
               <groupId>com.junlaninfo</groupId>
               <artifactId>Junlan-shop-portal-web</artifactId>
               <version>0.0.1-SNAPSHOT</version>
-       </dependency>
+       </dependency> -->
 		
 		
   </dependencies>

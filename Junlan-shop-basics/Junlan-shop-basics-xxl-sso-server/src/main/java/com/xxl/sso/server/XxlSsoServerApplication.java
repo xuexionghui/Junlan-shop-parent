@@ -12,9 +12,8 @@ import org.springframework.cloud.openfeign.FeignClient;
  */
 @SpringBootApplication(exclude = {DataSourceAutoConfiguration.class})
 @EnableEurekaClient  //开启eureka的客户端
-@EnableFeignClients       //开启feign客户端远程调用的功能
+@EnableFeignClients     //开启feign客户端远程调用的功能
 public class XxlSsoServerApplication {
-
 	public static void main(String[] args) {
         SpringApplication.run(XxlSsoServerApplication.class, args);
 	}

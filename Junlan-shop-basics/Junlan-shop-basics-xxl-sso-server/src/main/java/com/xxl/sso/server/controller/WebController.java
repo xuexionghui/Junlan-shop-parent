@@ -1,5 +1,6 @@
 package com.xxl.sso.server.controller;
 
+
 import com.junlaninfo.base.BaseResponse;
 import com.junlaninfo.base.Constants;
 import com.junlaninfo.base.controller.BaseWebController;
@@ -30,7 +31,7 @@ import java.util.UUID;
 @Controller
 public class WebController extends BaseWebController {
 	@Autowired
-	private xxl_ssoFeign   xxlFeign;
+	private xxl_ssoFeign    xxlssoFeign;
 
 	@RequestMapping("/")
 	public String index(Model model, HttpServletRequest request, HttpServletResponse response) {
@@ -109,10 +110,9 @@ public class WebController extends BaseWebController {
 		userLoginInpDTO.setLoginType(Constants.MEMBER_LOGIN_TYPE_PC);
 		userLoginInpDTO.setMobile(username);
 		userLoginInpDTO.setPassword(password);
-		String info ="火狐浏览器";
-				// webBrowserInfo(request);
+		String info = "火狐浏览器";//webBrowserInfo(request);
 		userLoginInpDTO.setDeviceInfor(info);
-		BaseResponse<UserOutDTO> ssoLogin = xxlFeign.ssoLogin(userLoginInpDTO);
+		 BaseResponse<UserOutDTO> ssoLogin = xxlssoFeign.ssoLogin(userLoginInpDTO);
 		if (ssoLogin==null) {
 			redirectAttributes.addAttribute("errorMsg", ssoLogin.getMsg());
 			redirectAttributes.addAttribute(Conf.REDIRECT_URL, request.getParameter(Conf.REDIRECT_URL));

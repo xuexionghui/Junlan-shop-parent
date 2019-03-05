@@ -25,6 +25,7 @@
 			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-openfeign</artifactId>
 		</dependency>
+		
 		<!-- xxl-sso server引入member的接口依赖 -->
 		<dependency>
 		      <groupId>com.junlaninfo</groupId>

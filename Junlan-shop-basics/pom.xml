@@ -11,5 +11,6 @@
   	<module>Junlan-shop-basics-springcloud-eureka</module>
   	<module>Junlan-shop-basics-springcloud-zuul</module>
   	<module>Junlan-shop-basics-xxl-sso-server</module>
+  	<module>Junlan-shop-basics-xxlsso-server</module>
   </modules>
 </project>

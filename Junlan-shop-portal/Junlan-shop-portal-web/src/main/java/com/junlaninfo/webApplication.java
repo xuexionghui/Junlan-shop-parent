@@ -14,6 +14,8 @@ import com.ctrip.framework.apollo.spring.annotation.EnableApolloConfig;
 * @version 创建时间：2019年1月28日 下午10:10:22 
 
 * 类说明    portal-web的启动类
+*        使用了xxl-sso 做系统的单点登陆系统的话，那么需要有一个配置类去读取
+*        单点登陆系统的相关配置类（如和redis的连接、认证授权中心的地址等内容）
 
 */ 
 

@@ -1,0 +1,12 @@
+0    DEBUG [2019-03-05 15:16:34]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-03-05 15:16:34]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+7    DEBUG [2019-03-05 15:16:34]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+9    DEBUG [2019-03-05 15:16:34]  TemplateLoader.findTemplateSource("index.ftl"): Found
+9    DEBUG [2019-03-05 15:16:34]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "E:\\JavaAll\\git\\Junlan-shop-parent\\Junlan-shop-portal\\Junlan-shop-portal-pay\\target\\classes\\templates\\index.ftl"
+107  DEBUG [2019-03-05 15:16:34]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1750 DEBUG [2019-03-05 15:16:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1752 DEBUG [2019-03-05 15:16:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2317 DEBUG [2019-03-05 15:16:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2318 DEBUG [2019-03-05 15:16:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2530 DEBUG [2019-03-05 15:16:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2531 DEBUG [2019-03-05 15:16:36]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.

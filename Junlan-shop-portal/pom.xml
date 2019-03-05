@@ -7,4 +7,7 @@
   </parent>
   <artifactId>Junlan-shop-portal</artifactId>
   <packaging>pom</packaging>
-  </project>
+  <modules>
+  	<module>Junlan-shop-portal-pay</module>
+  </modules>
+</project>
